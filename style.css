@@ -20,7 +20,7 @@ body {
 nav {
     font-size: 14px;
     padding-top: 33px;
-    padding-bottom: 30px;
+    padding-bottom: 25px;
 }
 nav li{
     display: inline;
@@ -38,11 +38,11 @@ nav li{
       }
       
 header {
-    background-color: gray;
+    background-color:rgb(140, 140, 140);
     text-align: center;
     border-radius: 3px;
     padding-top:20px;
-    
+   box-shadow:0px 10px 0px 5px rgba(131, 129, 129, 0.778); 
   }
 .searchIcon {
     text-align: left;
@@ -53,7 +53,10 @@ header {
     width: 900px;
 
 }
-  .column::after {
+.row {
+    padding:20px;
+}
+.column::after {
     content: "";
     display: table;
     clear: both;
@@ -67,7 +70,7 @@ header {
   footer {
       position: fixed;
       width:100%;
-      background-color: gray;
+      background-color: rgb(140, 140, 140);
       border-radius: 3px;
       bottom: 0;
     }
