@@ -34,11 +34,30 @@ header {
     width: 33%;
     padding: 10px;
   }
+
   footer {
       position: fixed;
       bottom:0;
-  }
-  
+      background-color: gray;
+    }
+footer>.footer-links {
+    display: inline;
+    margin:0 0;
+    padding: 0;
+    text-align: center;
+    
+   }
+footer>.footer-links> li {
+    display: inline;
+    text-decoration: none;
+    text-align: center;
+    
+}
+footer >ul>li>a {
+    text-decoration: none;
+    text-align: center;
+    
+}
 
 /*
 /* Styles go here
