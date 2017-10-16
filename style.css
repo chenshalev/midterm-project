@@ -11,6 +11,7 @@ body {
     text-align: right;
     margin: 0 0;
     padding:0 0;
+    color:white;
     
 }
 header {
@@ -19,6 +20,9 @@ header {
     border-radius: 3px;
     
   }
+.search-icon {
+    text-align: left;
+}
   .row {
       margin:0 auto;
       width: 900px;
@@ -49,9 +53,9 @@ footer> ul >li{
 footer >ul>li>a {
     text-decoration: none;
     text-align: center;
-    color:white;
     padding: 5px;
     border-left: 1px solid white;
+    color:white;
     
 }
 .li-special {
