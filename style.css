@@ -6,38 +6,54 @@
   }
   
 body {
+    font-size: 9pt;
     font-family: Arial;
-    font-size: 16px;
-    font-weight: bold;
     direction: rtl;
     text-align: right;
     margin: 0 0;
     padding:0 0;
     color:white;
+    font-weight: bold;
     
+}
+
+nav {
+    font-size: 14px;
+    padding-top: 33px;
+    padding-bottom: 30px;
 }
 nav li{
     display: inline;
- }
+    padding:20px;
+}
  nav li a {
      color:white;
      text-decoration: none;
- }
+      border-left: 1px solid white;
+      padding-left:10px;
+      
+    }
+    .navLiLast {
+        border: none;
+      }
+      
 header {
     background-color: gray;
     text-align: center;
     border-radius: 3px;
+    padding-top:20px;
     
   }
 .searchIcon {
     text-align: left;
+    font-size: 12px;
 }
 .widthMain {
     margin:0 auto;
     width: 900px;
 
 }
-  .row:after {
+  .column::after {
     content: "";
     display: table;
     clear: both;
@@ -48,12 +64,12 @@ header {
     width: 33%;
     padding: 10px;
   }
-
   footer {
       position: fixed;
       width:100%;
       background-color: gray;
       border-radius: 3px;
+      bottom: 0;
     }
 footer> ul >li{
     display: inline;
@@ -66,112 +82,10 @@ footer >ul>li>a {
     padding: 5px;
     border-left: 1px solid white;
     color:white;
+    font-size: 12px;
     
 }
-.li-special {
+.ftrLilast {
     color:red;
-    border:0;
+    border:none;
 }
-/*
-/* Styles go here
-ody {
-    font-family: Arial;
-  }
-  
-  main {
-    width: 80%;
-    background-color: #eee;
-    margin: 0 auto;
-    text-align: center;
-    border-radius: 3px;
-  }
-  
-  main h1 {
-    padding-top: 30px;
-  }
-  
-  .main-img {
-    width: 80%;
-    margin: 0 auto;
-    background-color:white;
-  }
-  
-  .main-img > img {
-    width: 100%;
-  }
-  
-  article {
-    text-align: left;
-    width: 60%;
-    margin: 0 auto;
-  }
-  article>div> ul>li {
-      color: blue;
-      font-size: 20px;
-      font-family: 'Indie Flower', cursive;
-  }
-  .par2 {
-    color:#00b3b3;
-    font-style: italic;
-  }
-  .par3 {
-        font-family: 'Indie Flower', cursive;
-  }
-  footer{
-    color:#00b3b3;
-    font-style: italic;
-    text-align:center;
-  }
-  
-  .first{
-      text-transform: capitalize;
-  }
-  header {
-    font-size: 48px;
-    font-family: Tahoma;
-    text-align: center;
-    color: red;
-  }
-  
-  .magazin-menu ul {
-    list-style: none;
-    text-align: center;
-    padding-right: 20px;
-    padding-left: 20px;
-    background-color: yellow;
-  }
-  
-  .magazin-menu >ul > li {
-    display: inline;
-    text-align: center;
-    padding: 20px;
-  }
-  
-  .magazin-menu ul > li > a {
-    text-decoration: none;
-    color: blue;
-    padding: 10px;
-    display: inline-block;
-    font-family: arial;
-    font-size: 14px;
-  }
-  
-  .head1 {
-    font-family: arial;
-    font-size: 36px;
-    font-weight: bold;
-  }
-  
-  .subhead1 {
-    font-family: Tahoma;
-    font-size: 20px;
-    font-weight: italic;
-  }
-  
-  .text1 {
-    font-family: 'Amatic SC', cursive;
-    font-family: 'Cousine', monospace;
-    font-size: 14px;
-  }
-
-*/
