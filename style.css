@@ -1,1 +1,65 @@
 /*style */
+/* Styles go here */
+
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    direction: rtl;
+    text-align: right;
+}
+
+/*
+  .first{
+      text-transform: capitalize;
+  }
+  header {
+    font-size: 48px;
+    font-family: Tahoma;
+    text-align: center;
+    color: red;
+  }
+  
+  .magazin-menu ul {
+    list-style: none;
+    text-align: center;
+    padding-right: 20px;
+    padding-left: 20px;
+    background-color: yellow;
+  }
+  
+  .magazin-menu >ul > li {
+    display: inline;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .magazin-menu ul > li > a {
+    text-decoration: none;
+    color: blue;
+    padding: 10px;
+    display: inline-block;
+    font-family: arial;
+    font-size: 14px;
+  }
+  
+  .head1 {
+    font-family: arial;
+    font-size: 36px;
+    font-weight: bold;
+  }
+  
+  .subhead1 {
+    font-family: Tahoma;
+    font-size: 20px;
+    font-weight: italic;
+  }
+  
+  .text1 {
+    font-family: 'Amatic SC', cursive;
+    font-family: 'Cousine', monospace;
+    font-size: 14px;
+  }
+
+*/
