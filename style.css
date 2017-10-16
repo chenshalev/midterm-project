@@ -23,10 +23,11 @@ header {
 .search-icon {
     text-align: left;
 }
-  .row {
-      margin:0 auto;
-      width: 900px;
-  }
+.widthMain {
+    margin:0 auto;
+    width: 900px;
+
+}
   .row:after {
     content: "";
     display: table;
