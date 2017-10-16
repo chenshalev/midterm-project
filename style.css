@@ -5,12 +5,92 @@
     box-sizing: border-box;
   }
   
-  body {
+body {
+    font-family: Arial;
     direction: rtl;
     text-align: right;
+    margin: 0 0;
+    padding:0 0;
+    
 }
+header {
+    background-color: gray;
+    text-align: center;
+    border-radius: 3px;
+    
+  }
+  .row {
+      margin:0 auto;
+      width: 900px;
+  }
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  .column {
+    float: right;
+    width: 33%;
+    padding: 10px;
+  }
+  footer {
+      position: fixed;
+      bottom:0;
+  }
+  
 
 /*
+/* Styles go here
+ody {
+    font-family: Arial;
+  }
+  
+  main {
+    width: 80%;
+    background-color: #eee;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 3px;
+  }
+  
+  main h1 {
+    padding-top: 30px;
+  }
+  
+  .main-img {
+    width: 80%;
+    margin: 0 auto;
+    background-color:white;
+  }
+  
+  .main-img > img {
+    width: 100%;
+  }
+  
+  article {
+    text-align: left;
+    width: 60%;
+    margin: 0 auto;
+  }
+  article>div> ul>li {
+      color: blue;
+      font-size: 20px;
+      font-family: 'Indie Flower', cursive;
+  }
+  .par2 {
+    color:#00b3b3;
+    font-style: italic;
+  }
+  .par3 {
+        font-family: 'Indie Flower', cursive;
+  }
+  footer{
+    color:#00b3b3;
+    font-style: italic;
+    text-align:center;
+  }
+  
   .first{
       text-transform: capitalize;
   }
