@@ -10,13 +10,11 @@ body {
     font-family: Arial;
     direction: rtl;
     text-align: right;
-    margin: 0 0;
-    padding:0 0;
     color:white;
     font-weight: bold;
-    
+    margin: 0 0;
+    padding:0 0;
 }
-
 nav {
     font-size: 14px;
     padding-top: 33px;
@@ -35,8 +33,7 @@ nav li{
     }
     .navLiLast {
         border: none;
-      }
-      
+      }  
 header {
     background-color:rgb(140, 140, 140);
     text-align: center;
@@ -48,26 +45,30 @@ header {
     text-align: left;
     font-size: 12px;
 }
-.widthMain {
+.row {
     margin:0 auto;
     width: 900px;
+    padding-top:50px;
+}
 
-}
-.row {
-    padding:20px;
-}
-.column::after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-  
-  .column {
-    float: right;
+.column {
+   float: right;
     width: 33%;
-    padding: 10px;
+    padding: 0 24px;
   }
-  footer {
+.column::after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+.row::after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+
+
+footer {
       position: fixed;
       width:100%;
       background-color: rgb(140, 140, 140);
