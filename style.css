@@ -21,16 +21,36 @@ header {
     padding-top:20px;
     box-shadow:0px 10px 0px 5px rgba(131, 129, 129, 0.778); 
   }
-.searchIcon {
+.searchdiv {
     width: 900px;
     text-align: left;
     font-size: 12px;
+}
+.searchword {
+    background-color: white;
+}
+.searchword a {
+    color:black;
 }
 .mainmenu {
     font-size: 14px;
     padding-top: 20px;
 
 }
+.searchdiv >li{
+    display:inline;
+}
+.searchword >a {
+   color:black; 
+}
+.searchdiv> li >a {
+text-decoration: none;
+color:white;
+}
+.searchdiv>li {
+    list-style: none;
+}
+
 nav>ul>li{
     display: inline;
     padding:20px;
