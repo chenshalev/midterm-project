@@ -15,16 +15,27 @@ body {
     margin: 0 0;
     padding:0 0;
 }
-nav {
+header {
+    background-color:rgb(140, 140, 140);
+    text-align: center;
+    border-radius: 3px;
+    padding-top:20px;
+    box-shadow:0px 10px 0px 5px rgba(131, 129, 129, 0.778); 
+  }
+.searchIcon {
+    text-align: left;
+    font-size: 12px;
+}
+.mainmenu {
     font-size: 14px;
     padding-top: 33px;
     padding-bottom: 25px;
 }
-nav li{
+nav>ul>li{
     display: inline;
     padding:20px;
 }
- nav li a {
+ .mainmenu li  a {
      color:white;
      text-decoration: none;
       border-left: 1px solid white;
@@ -34,16 +45,44 @@ nav li{
     .navLiLast {
         border: none;
       }  
-header {
+nav>ul>li>a:hover {
+    text-decoration: underline;
+    color:blue;
+}
+
+.about-menu {
+    position: relative;
+}
+.about-menu:hover .about-menu-content {
+    display: block;
+}
+
+.about-menu-content {
+   display: none; 
+    position: absolute;
     background-color:rgb(140, 140, 140);
-    text-align: center;
-    border-radius: 3px;
-    padding-top:20px;
-   box-shadow:0px 10px 0px 5px rgba(131, 129, 129, 0.778); 
-  }
-.searchIcon {
-    text-align: left;
-    font-size: 12px;
+    padding:0;
+    margin:0 0;
+    width: 97px;
+    right: 20px;
+    z-index:1000;
+    list-style: none;
+}
+.about-menu .about-menu-content > li {
+    padding:none;
+}
+.about-menu .about-menu-content > li > a {
+    border-bottom: 1px solid white;
+    border-left:none;
+    display: block;
+    text-decoration: none;
+    text-align: right;
+    padding:none;
+    padding-right: 6px;
+    padding-left:0;
+    padding-top:0;
+    padding-bottom: 0;
+    line-height: 25px;
 }
 .row {
     margin:0 auto;
@@ -82,7 +121,10 @@ header {
     opacity: 0.9;
     bottom:10px;
     right:10px;
+    top:240px;
     color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:12px;
     border-radius: 0 0 25px 0;
 }
 .floattxt a {
@@ -93,7 +135,9 @@ header {
     bottom:10px;
      color:white;
 }
-
+.floattxt h3 {
+    font-size:14px;
+}
 
 
 footer {
