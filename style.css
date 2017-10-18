@@ -65,9 +65,16 @@ color:white;
     padding-top: 20px;
     left:0;
 }
+#menuhome>img {
+    background:transparent;
+}
+/*
 #menuhome {
+    width:17px;
+    height: 15px;
     background: url(images\search_button.png) 0 0;
 }
+*/
 .mainmenu>ul {
     padding:0;
     text-align: left;
