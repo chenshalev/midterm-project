@@ -211,8 +211,10 @@ body a:hover {
     color:blue;
 }
 .floatnav img {
-    padding:7px;
-}
+        position: relative;
+        top:0;
+        right:5px;
+    }
 .more-info {
     position: absolute;
     bottom:40px;
@@ -220,7 +222,9 @@ body a:hover {
     color:rgba(0, 0, 0, 0.479); 
 }
 .more-info img {
-    padding:7px;
+    position: relative;
+    top:0;
+    right:5px;
 }
 .incolumn>p {
     position: absolute;
