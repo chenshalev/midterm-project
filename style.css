@@ -25,11 +25,16 @@ header {
 .searchdiv {
     margin:0 auto;
     width: 900px;
-     text-align: left;
+    text-align: left;
     font-size: 12px;
+ }
+ .searchdiv img {
+     position: relative;
+     top:5px;
  }
 .searchword {
     background-color: white;
+    border-radius: 0 8px 0 0 ;
 }
 .searchword a {
     color:black;
