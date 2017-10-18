@@ -200,6 +200,7 @@ body a:hover {
 }
 .floatnav>li>a {
     color:rgba(0, 0, 0, 0.479); 
+    height: 20px;
 }
 .floatnav>li>a:hover {
     color:blue;
@@ -231,6 +232,7 @@ footer {
       background-color: rgb(140, 140, 140);
       border-radius: 3px;
       bottom: 0;
+      padding:10px;
     }
 footer> ul >li{
     display: inline;
