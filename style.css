@@ -270,3 +270,19 @@ footer >ul>li>a {
     color:red;
     border:none;
 }
+.divform {
+    float: right;
+    border-radius: 0 0 25px 0;
+     width: 33%;
+     padding: 0 24px;
+    border: 1px solid gray ;
+    }
+    form {
+        color:black;
+    }
+ .divform::after {
+         content: "";
+         display: table;
+         clear: both;
+       }
+ 
