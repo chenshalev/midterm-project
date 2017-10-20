@@ -272,13 +272,47 @@ footer >ul>li>a {
 }
 .divform {
     float: right;
-    border-radius: 0 0 25px 0;
-     width: 33%;
-     padding: 0 24px;
-    border: 1px solid gray ;
+    font-size:12px;
+    width:42%;
+    margin-left:400px;
+    margin-right:180px;
+    margin-top:0;
+    padding-left:0;
+    color:gray;
+    }
+    .divform a{
+        color:gray;
+    }
+    form h3 {
+        color: blue;
+    }
+    form h5 {
+        font-size:13px;
     }
     form {
-        color:black;
+        display:block;
+        margin-top:20px;
+        border-radius: 0 25px 0 0;
+        padding: 10px 24px;
+        border: 1px solid gray ;
+        border-bottom: none;
+        background-color: gainsboro ;
+        color: gray;
+        margin-right:0;
+        text-decoration: none;
+        font-size: 12px;   
+    } 
+    
+    .formline {
+        margin-bottom: 5px;
+    }
+    .txtform p {
+        text-align:left;
+        margin-left:20px;
+        
+    }
+    input {
+    text-align: right;        
     }
  .divform::after {
          content: "";
