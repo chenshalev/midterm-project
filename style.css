@@ -283,14 +283,16 @@ footer >ul>li>a {
     .divform a{
         color:gray;
     }
-    form h3 {
+    .divform h3 {
         color: blue;
     }
-    form h5 {
+    .divform h5 {
         font-size:13px;
     }
     form {
+        position: relative;
         display:block;
+        height:400px;
         margin-top:20px;
         border-radius: 0 25px 0 0;
         padding: 10px 24px;
@@ -304,19 +306,31 @@ footer >ul>li>a {
     } 
     
     .formline {
-        margin-bottom: 5px;
+        float: left;
     }
-    .txtform p {
-        text-align:left;
-        margin-left:20px;
-        
+    .form>div {
+        float:right;
+        margin-top:0 ;
+        width:70px;
     }
-    input {
-    text-align: right;        
+    .send{
+        position:absolute;
     }
- .divform::after {
-         content: "";
-         display: table;
-         clear: both;
-       }
- 
+    .send>input{
+        font-size: 14px;
+        color: #fff;
+            background-color: blue;
+            line-height: 21px;
+            padding: 0 4px;
+            }
+    
+    .divform::after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+      .formline::after {
+        content: "";
+        display: table;
+        clear: both;
+      }
