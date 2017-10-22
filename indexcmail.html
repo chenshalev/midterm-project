@@ -30,7 +30,7 @@
                 <nav class="mainmenu">
                     <ul>
                         <li>
-                            <a href="">
+                            <a href="index.html">
                                 <img src="images\menu_home_blue.png" alt="">
                             </a>
                         </li>
@@ -168,11 +168,54 @@
                 </nav>
             </div>
         </header>
-        <div class="row">
-            <div class="divform">
-                <a href=""> עמוד הבית > צור קשר
-                </a>
-                <form class="txtform">
+        <div class="mailrow">
+            <div class="mailcolumn1">
+                <div class="info">
+                    <img src="images\cube_bg.png" alt="">
+                    <div class="infotxt">
+                        <h3>
+                            פרטי יצירת קשר
+                        </h3>
+                        <h4>
+                            פז חברת נפט בע"מ
+                        </h4>
+                        <h5>
+                            יורו פארק, בניין הולנד
+                        </h5>
+                        <h5>
+                            קיבוץ יקום 60972
+
+                        </h5>
+                        <h5>
+                            טל. שירות לקוחות 1-800-774-774
+
+                        </h5>
+                        <h5>
+                            פקס.09-8641714
+                        </h5>
+                    </div>
+                </div>
+                <div class="info1">
+                    <img src="images\cube_bg.png" alt="">
+                    <div class="infotxt">
+                        <h3>
+                            עוד בפז
+                        </h3>
+                        <h4>
+                            ליצירת קשר עם דוברות פז
+                        </h4>
+                        <a href="">לחצו כאן</a>
+                        <h5>
+                            רוצים לעבוד בפז?
+                        </h5>
+                        <a href="">לחצו כאן</a>
+                    </div>
+                </div>
+            </div>
+            <div class="mailcolumn2">
+                <h4>עמוד הבית > צור קשר
+                    </h4>
+                <form>
                     <legend>
                         <h3>
                             צור קשר
@@ -181,31 +224,39 @@
                             ליצירת קשר עם קשרי לקוחות אנא מלאו את הפרטים הבאים ואנו נשמח לעמוד לרשותכם :
                         </h4>
                         <h5>
-                            * השדות המסומנים בכוכבית (*) הינם שדות חובה</legend>
-                    </h5>
+                            * השדות המסומנים בכוכבית (*) הינם שדות חובה
+                        </h5>
                     </legend>
-                    <input class="formline" type="name" name="fname" id="fname">
+                    <input class="formline" type="name" name="fname" id="fname" required>
                     <div>* שם פרטי :</div>
                     <br>
-                    <input class="formline" type="name" name="lname" id="lname">
+                    <input class="formline" type="name" name="lname" id="lname" required>
                     <div> * שם משפחה :</div>
                     <br>
-                    <input class="formline" type="tel" name="tel" id="tel">
+                    <input class="formline" type="tel" pattern="^\d{2}-\d{7}$" name="tel" id="tel" required>
                     <div>* מס טלפון:</div>
                     <br>
-                    <input class="formline" type="email" name="email" id="email">
+                    <input class="formline" type="email" name="email" id="email" required>
                     <div> * E-mail :</div>
                     <br>
                     <br>
                     <textarea class="formline" name="rem" id="rem" cols="30" rows="6">תוכן הפנייה</textarea>
                     <br>
                     <br>
-                    <div>
-                        <input type="submit" value="שלח">
-                    </div>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <input class="formline" type="submit" value="שלח">
                 </form>
             </div>
+            <div class="mailcolumn3">
+                <a href="">צור קשר</a>
+            </div>
         </div>
+
+
         <footer>
             <ul class="width900">
                 <li>

@@ -270,67 +270,98 @@ footer >ul>li>a {
     color:red;
     border:none;
 }
-.divform {
-    float: right;
-    font-size:12px;
-    width:42%;
-    margin-left:400px;
-    margin-right:180px;
+.mailrow {
+    margin:0 auto;
+    padding-top:30px;
+    margin-left:200px;
+}
+    .mailcolumn1 {
+    position: relative;
+    margin-top: 33px;
+    float: left;
+    width:30%;
+    margin-right:50px;
+}
+.mailcolumn2 {
+    float: left;
+    width:30%;
+    margin-right:10px;
     margin-top:0;
     padding-left:0;
     color:gray;
-    }
-    .divform a{
-        color:gray;
-    }
-    .divform h3 {
-        color: blue;
-    }
-    .divform h5 {
-        font-size:13px;
-    }
-    form {
-        position: relative;
-        display:block;
-        height:400px;
-        margin-top:20px;
-        border-radius: 0 25px 0 0;
-        padding: 10px 24px;
-        border: 1px solid gray ;
-        border-bottom: none;
-        background-color: gainsboro ;
-        color: gray;
-        margin-right:0;
-        text-decoration: none;
-        font-size: 12px;   
-    } 
-    
-    .formline {
-        float: left;
-    }
-    .form>div {
-        float:right;
-        margin-top:0 ;
-        width:70px;
-    }
-    .send{
-        position:absolute;
-    }
-    .send>input{
-        font-size: 14px;
-        color: #fff;
-            background-color: blue;
-            line-height: 21px;
-            padding: 0 4px;
-            }
-    
-    .divform::after {
-        content: "";
-        display: table;
-        clear: both;
-      }
-      .formline::after {
-        content: "";
-        display: table;
-        clear: both;
-      }
+    font-size:12px;
+}
+.mailcolumn3 { 
+    float: left;
+    width:10%;
+    margin-top:0;
+    padding-left:0;
+    text-align: right;
+    line-height: 50px;
+    background: linear-gradient(rgb(214, 218, 219),rgba(241, 241, 237, 0.43))
+}
+.mailcolumn3 a { 
+    font-size:14px;
+    color:black;
+    text-decoration: none;
+}
+.info1 {
+    margin-top:20px;
+    position: relative;
+}
+.infotxt {
+    position: absolute;
+    color: gray;
+    top:10px;    
+    right:40px;
+    line-height: normal;
+} 
+form {
+    display:block;
+    height:400px;
+    margin-top:20px;
+    border-radius: 0 25px 0 0;
+    padding: 10px 24px;
+    border: 1px solid gray ;
+    border-bottom: none;
+    background-color: gainsboro ;
+    color: gray;
+    margin-right:0;
+    text-decoration: none;
+    font-size: 12px;   
+} 
+.formline {
+    float: left;
+}
+.form>div {
+    float:right;
+    margin-top:0 ;
+    width:70px;
+}
+.send>input{
+    font-size: 14px;
+    color: #fff;
+        background-color: blue;
+        line-height: 21px;
+        padding: 0 4px;
+        }
+.infotxt h3 {
+    color: blue;
+    font-size:12px;
+    font-weight: bold;
+}
+.infotxt h4 {
+    margin:0 0;
+    font-size:13px;
+    font-weight: bold;
+}
+.infotxt a {
+    margin:0 0;
+    font-size:13px;
+    font-weight: bold;
+}
+.infotxt h5{
+    margin:0 0;
+    font-size: 13px;
+    font-weight: none;
+}
